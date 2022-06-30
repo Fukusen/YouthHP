@@ -30,6 +30,7 @@ header a {
 .headerContainer h1 {
     float: left;
     margin: 0;
+    color: black;
 }
 
 .headerContainer ul {
