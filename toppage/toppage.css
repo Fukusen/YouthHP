@@ -113,6 +113,11 @@ header {
     margin-right: 40px;
 }
 
+.viewall a {
+    text-decoration: none;
+    color: black;
+}
+
 .view {
     margin: 0;
     padding-right: 20px;
@@ -294,6 +299,11 @@ header {
     color: white;
     
     font-size: 15px;
+}
+
+.managerView a {
+    text-decoration: none;
+    color: white;
 }
 
 .managerView h3 {
