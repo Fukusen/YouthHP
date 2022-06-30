@@ -7,13 +7,13 @@ body {
 }
 
 header {
-    height: 650px;
-    
+    height: auto;
+    position: relative;
 }
 
 .youthTitle {
-    height: 650px;
-    width: 350px;
+    height: auto;
+    width: 30%;
     background-color: rgba(253, 215, 0, 1);
 }
 
@@ -28,6 +28,7 @@ header {
 
 .youthTitle ul {
     margin-top: 70px;
+    padding-bottom: 150px;
 }
 
 .youthTitle li {
@@ -37,16 +38,23 @@ header {
     padding-bottom: 50px;
 }
 
-.youthTitle li:hover {
+.youthTitle a:hover {
     color: #b4532a;
-    transition: 0.2s;
+    transition: 0.5s;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.youthTitle a {
+    text-decoration: none;
+    color: white;
 }
 
 .youth-img {
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 80%;
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     right: 0px;
 }
 
@@ -103,6 +111,11 @@ header {
 .viewall {
     float: right;
     margin-right: 40px;
+}
+
+.viewall a {
+    text-decoration: none;
+    color: black;
 }
 
 .view {
@@ -286,6 +299,11 @@ header {
     color: white;
     
     font-size: 15px;
+}
+
+.managerView a {
+    text-decoration: none;
+    color: white;
 }
 
 .managerView h3 {
