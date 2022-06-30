@@ -73,7 +73,7 @@ header {
 }
 
 .newsBlock {
-    height: 100px;
+    height: 100%;
     float: left;
     width: 33%;
     border-right: 2px solid #b4532a;
@@ -81,7 +81,7 @@ header {
 }
 
 .newsBlockend {
-    height: 100px;
+    height: 100%;
     float: left;
     width: 33%;
 }
@@ -136,7 +136,8 @@ header {
 }
 
 .youth {
-    margin: 0 0 0 256px;
+    width: 80%;
+    margin-left: auto;
     background-color: rgba(253, 215, 0, 1);
     height: 700px;
     
@@ -187,7 +188,9 @@ header {
 }
 
 .questContainer {
-    margin: 100px 200px 100px 0;
+    width: 80%;
+    margin-right: auto;
+    margin-top: 100px;
     background-color: rgba(255, 251, 229, 1);
     height: 800px;
 }
